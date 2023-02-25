@@ -107,7 +107,7 @@ Enable Container insights.
 
 ![Prometheus metrics with Container insights](images/10.png)
 
-> **NOTE: We are no going to use Grafana in this section because this example is done in the [Collect Prometheus metrics from AKS cluster (preview)](#Collect-Prometheus-metrics-from-AKS-cluster-(preview)) section**.
+> **NOTE: We are no going to use Grafana in this section because this example is done in the [Collect Prometheus metrics from AKS cluster (preview)](#collect-prometheus-metrics-from-aks-cluster-preview) section**.
 
 [Download](https://aka.ms/container-azm-ms-agentconfig) the template ConfigMap YAML file and save it as **container-azm-ms-agentconfig.yaml**.
 
