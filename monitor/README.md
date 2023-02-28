@@ -205,7 +205,7 @@ Review and Create.
 
 ## Enable cost optimization settings
 
-You can set the interval ([1m, 30m]), namespaceFilteringMode (Include, Exclude, or Off) and namespaces [An array of names i.e. ["kube-system", "default"]]. For more info [here](https://review.learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-cost-config?branch=pr-en-us-210933&tabs=create-CLI#data-collection-parameters).
+You can set the interval ([1m, 30m]), namespaceFilteringMode (Include, Exclude, or Off) and namespaces [An array of names i.e. ["kube-system", "default"]]. For more info [here](https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-cost-config?branch=pr-en-us-210933&tabs=create-CLI#data-collection-parameters).
 
 Example:
 
