@@ -236,7 +236,7 @@ az aks enable-addons -a monitoring --enable-msi-auth-for-monitoring \
 AKS_RESOURCE_GROUP="rg-test"
 az group create -n $AKS_RESOURCE_GROUP -l westeurope
 AKS_NAME_2="aks-cluster-2"
-az aks create --node-count 3 --name $AKS_NAME_1 --resource-group $AKS_RESOURCE_GROUP --generate-ssh-keys
+az aks create --node-count 3 --name $AKS_NAME_2 --resource-group $AKS_RESOURCE_GROUP --generate-ssh-keys
 KUBE_FILE="$HOME/aks-cluster-2.config"
 az aks get-credentials \
     --name $AKS_NAME_2 \
